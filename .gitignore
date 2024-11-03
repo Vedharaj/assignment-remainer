@@ -1,0 +1,59 @@
+# React Native
+# React Native Packager
+*.jsbundle
+*.map
+
+# Logs
+*.log
+
+# Build directories
+android/.gradle/
+android/app/build/
+android/app/src/main/res/mipmap-*/ic_launcher.*
+ios/build/
+ios/Pods/
+ios/DerivedData/
+node_modules/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcworkspace/
+*.xcuserstate
+
+# Temporary files
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.* # for example .env.local, .env.production
+
+# Metro Bundler
+metro-config.js
+metro.lock
+
+# npm package logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Miscellaneous
+.DS_Store
+*.jks
+*.keystore
+*.hprof
+*.apk
+*.aab
+*.tgz
+*.zip
+*.gz
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# react-native generated files
+react-native.config.js
